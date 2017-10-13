@@ -51,7 +51,7 @@
 
             //returns a URL for 5 day forecast for given city from the OpenWeatherMap API
             function buildUrl(cityid) {
-                var url = 'http://api.openweathermap.org/data/2.5/forecast/daily?id=' + encodeURIComponent(cityid.toString()) + "&cnt=5&units=metric" + "&APPID=" + APPID;
+                var url = 'http://api.openweathermap.org/data/2.5/forecast/daily?id=' + encodeURIComponent(cityid.toString()) + "&cnt=10&units=metric" + "&APPID=" + APPID;
                 return url;
             }
 
